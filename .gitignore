@@ -1,0 +1,37 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.jks
+*.keystore
+application-local.*
+
+# Environment-specific application exports
+*.msapp
+*.zip
+
+# Raw or customer-provided data
+data/
+data_raw/
+raw-data/
+inputs/
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.doc
+*.docx
+
+# Local output
+logs/
+*.log
+target/
+build/
+dist/
+.idea/
+.vscode/
+.DS_Store
